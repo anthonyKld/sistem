@@ -83,10 +83,10 @@ if (!isset($_SESSION['usuario'])) {
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="../pages/vendedores.php">
+                            <a class="mdl-navigation__link" href="loralwhite-kudu-117908.hostingersite.com/src/pages/vendedores.php">
                                 Vendedores
                             </a>
-                            <a class="mdl-navigation__link" href="../pages/dados-empresa.php">
+                            <a class="mdl-navigation__link" href="src/pages/dados-empresa.php">
                                 Dados da empresa
                             </a>
                             <a class="mdl-navigation__link" href="../pages/historico-pedidos.php">
