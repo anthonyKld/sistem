@@ -1,9 +1,17 @@
+<?php
+session_start();
+// Verificar se o usuário está logado
+if (!isset($_SESSION['usuario'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
 <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
         <div class="mdl-layout-spacer"></div>
 
         <div class="avatar-dropdown" id="icon">
-            <span><?php echo session_start(); ($_SESSION['nomeUsuario']); ?></span>
+            <span><?php ($_SESSION['nomeUsuario']); ?></span>
             <img src="./src/images/Icon_header.png">
         </div>
         <!-- Account dropdawn-->
@@ -12,7 +20,7 @@
             <li class="mdl-list__item mdl-list__item--two-line">
                 <span class="mdl-list__item-primary-content">
                     <span class="material-icons mdl-list__item-avatar"></span>
-                    <span><?php echo ($_SESSION['nomeUsuario']); ?></span>
+                    <span><?php session_start();echo ($_SESSION['nomeUsuario']); ?></span>
                     <span class="mdl-list__item-sub-title"><?php echo ($_SESSION['usuario']); ?></span>
                 </span>
             </li>
