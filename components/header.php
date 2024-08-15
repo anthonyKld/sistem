@@ -11,7 +11,7 @@ if (!isset($_SESSION['usuario'])) {
         <div class="mdl-layout-spacer"></div>
 
         <div class="avatar-dropdown" id="icon">
-            <span><?php ($_SESSION['nomeUsuario']); ?></span>
+            <span><?php echo($_SESSION['nomeUsuario']); ?></span>
             <img src="./src/images/Icon_header.png">
         </div>
         <!-- Account dropdawn-->
