@@ -12,7 +12,7 @@ if (!isset($_SESSION['usuario'])) {
 
         <div class="avatar-dropdown" id="icon">
             <span><?php echo($_SESSION['nomeUsuario']); ?></span>
-            <img src="./src/images/Icon_header.png">
+            <img src="../src/images/Icon_header.png">
         </div>
         <!-- Account dropdawn-->
         <ul class="mdl-menu mdl-list mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect mdl-shadow--2dp account-dropdown"
