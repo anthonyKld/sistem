@@ -83,16 +83,13 @@ if (!isset($_SESSION['usuario'])) {
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="pages/vendedores.php">
+                            <a class="mdl-navigation__link" href='../pages/vendedores.php'>
                                 Vendedores //ok
                             </a>
-                            <a class="mdl-navigation__link" href="src/pages/dados-empresa.php">
-                                Dados da empresa //https://floralwhite-kudu-117908.hostingersite.com/src/src/pages/dados-empresa.php
-                            </a>
-                            <a class="mdl-navigation__link" href=".../src/pages/historico-pedidos.php">
+                            <a class="mdl-navigation__link" href='../src/pages/historico-pedidos.php'>
                                 Histórico //ok
                             </a>
-                            <a class="mdl-navigation__link" href="https://floralwhite-kudu-117908.hostingersite.com/src/pages/historico-pedidos.php">
+                            <a class="mdl-navigation__link" href='https://floralwhite-kudu-117908.hostingersite.com/src/pages/historico-pedidos.php'>
                                 Histórico //ok
                             </a>
 
