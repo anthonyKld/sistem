@@ -20,7 +20,7 @@ if (!isset($_SESSION['usuario'])) {
             <li class="mdl-list__item mdl-list__item--two-line">
                 <span class="mdl-list__item-primary-content">
                     <span class="material-icons mdl-list__item-avatar"></span>
-                    <span><?php session_start();echo ($_SESSION['nomeUsuario']); ?></span>
+                    <span><?php echo ($_SESSION['nomeUsuario']); ?></span>
                     <span class="mdl-list__item-sub-title"><?php echo ($_SESSION['usuario']); ?></span>
                 </span>
             </li>
