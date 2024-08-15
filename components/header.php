@@ -96,9 +96,10 @@ if (!isset($_SESSION['usuario'])) {
                                 Histórico //ok
                             </a>
 
-                            <a class="mdl-navigation__link" href="../src/pages/dados-empresa.php">
-                                1 //https://floralwhite-kudu-117908.hostingersite.com/src/src/pages/dados-empresa.php
+                            <a class="mdl-navigation__link" href="https://floralwhite-kudu-117908.hostingersite.com/src/pages/historico-pedidos.php">
+                                Histórico //ok
                             </a>
+
                         </div>
                     </div>
 
