@@ -83,13 +83,13 @@ if (!isset($_SESSION['usuario'])) {
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="../pages/vendedores.php">
+                            <a class="mdl-navigation__link" href="../src/pages/vendedores.php">
                                 Vendedores
                             </a>
-                            <a class="mdl-navigation__link" href="../pages/dados-empresa.php">
+                            <a class="mdl-navigation__link" href="../src/pages/dados-empresa.php">
                                 Dados da empresa
                             </a>
-                            <a class="mdl-navigation__link" href="../pages/historico-pedidos.php">
+                            <a class="mdl-navigation__link" href="../src/pages/historico-pedidos.php">
                                 Histórico
                             </a>
                         </div>
@@ -103,7 +103,7 @@ if (!isset($_SESSION['usuario'])) {
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="../pages/editar-produtos.php">
+                            <a class="mdl-navigation__link" href="../src/pages/editar-produtos.php">
                                 Editar produtos
                             </a>
                         </div>
@@ -116,12 +116,12 @@ if (!isset($_SESSION['usuario'])) {
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="../pages/setores.php">
+                            <a class="mdl-navigation__link" href="../src/pages/setores.php">
                                 Setores
                             </a>
                         </div>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="../pages/esteira.php">
+                            <a class="mdl-navigation__link" href="../src/pages/esteira.php">
                                 Esteira
                             </a>
                         </div>
@@ -135,10 +135,10 @@ if (!isset($_SESSION['usuario'])) {
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="../pages/api-bling.php">
+                            <a class="mdl-navigation__link" href="../src/pages/api-bling.php">
                                 API Bling
                             </a>
-                            <a class="mdl-navigation__link" href="../pages/variaveis.php">
+                            <a class="mdl-navigation__link" href="../src/pages/variaveis.php">
                                 Variáveis
                             </a>
                         </div>
