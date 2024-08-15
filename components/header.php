@@ -4,7 +4,7 @@
 
         <div class="avatar-dropdown" id="icon">
             <span><?php echo session_start(); ($_SESSION['nomeUsuario']); ?></span>
-            <img src="../src/images/Icon_header.png">
+            <img src="./src/images/Icon_header.png">
         </div>
         <!-- Account dropdawn-->
         <ul class="mdl-menu mdl-list mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect mdl-shadow--2dp account-dropdown"
@@ -75,13 +75,13 @@
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="../src/pages/vendedores.php">
+                            <a class="mdl-navigation__link" href="./src/pages/vendedores.php">
                                 Vendedores
                             </a>
-                            <a class="mdl-navigation__link" href="../../pages/dados-empresa.php">
+                            <a class="mdl-navigation__link" href=".././pages/dados-empresa.php">
                                 Dados da empresa
                             </a>
-                            <a class="mdl-navigation__link" href="../src/pages/historico-pedidos.php">
+                            <a class="mdl-navigation__link" href="./src/pages/historico-pedidos.php">
                                 Histórico
                             </a>
                         </div>
