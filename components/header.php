@@ -3,7 +3,7 @@
         <div class="mdl-layout-spacer"></div>
 
         <div class="avatar-dropdown" id="icon">
-            <span><?php echo ($_SESSION['nomeUsuario']); ?></span>
+            <span><?php echo session_start(); ($_SESSION['nomeUsuario']); ?></span>
             <img src="../src/images/Icon_header.png">
         </div>
         <!-- Account dropdawn-->
