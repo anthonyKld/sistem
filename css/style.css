@@ -1,0 +1,59 @@
+.flex-align-center {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 380px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Estilos para o contêiner da imagem do perfil */
+.profile-image-container {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Estilos para a imagem do perfil */
+.profile-image {
+    display: block;
+    object-fit: cover; /* Para garantir que a imagem preencha o contêiner */
+    margin-top: 0px!important;
+    width: 100px!important; /* Defina o tamanho conforme necessário */
+    height: 100px!important; /* Defina o tamanho conforme necessário */
+}
+
+/* Estilos para a sobreposição */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 100%, 0.10); /* Preto com 50% de opacidade */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00bcd4
+    ;
+    font-size: 48px; /* Tamanho do ícone */
+    opacity: 0; /* Invisível por padrão */
+    transition: opacity 0.3s ease; /* Transição suave */
+    cursor: pointer;
+    border-radius: 50%; /* Manter o formato redondo */
+}
+
+/* Mostrar a sobreposição ao passar o mouse */
+.profile-image-container:hover .overlay {
+    opacity: 1;
+}
+
+
+@media (max-width: 480px) {
+    .flex-align-center {
+        min-width: 100%;
+    }
+}
