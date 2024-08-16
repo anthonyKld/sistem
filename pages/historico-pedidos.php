@@ -1,7 +1,5 @@
-<?php include('../php/verificador.php'); ?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link rel="icon" type="image/png" href="images/DB_16х16.png">
     <meta charset="utf-8">
@@ -41,6 +39,7 @@
 <body>
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header is-small-screen">
     <?php include('../components/header.php'); ?>
+    
 
     <main class="mdl-layout__content ">
 

@@ -1,7 +1,9 @@
-<?php //include('../php/verificador.php'); ?>
+<?php
+    require('../php/configuracoes.php'); 
+?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link rel="icon" type="image/png" href="images/DB_16х16.png">
     <meta charset="utf-8">
@@ -54,92 +56,17 @@
                         <table class="mdl-data-table mdl-js-data-table">
                             <thead>
                             <tr>
-                                <th class="mdl-data-table__cell--non-numeric">#</th>
-                                <th class="mdl-data-table__cell--non-numeric">Book title</th>
-                                <th class="mdl-data-table__cell--non-numeric">Author</th>
-                                <th class="mdl-data-table__cell--non-numeric">Genre</th>
-                                <th class="mdl-data-table__cell--non-numeric">Year</th>
-                                <th class="mdl-data-table__cell--non-numeric">Originally published</th>
-                                <th class="mdl-data-table__cell--non-numeric">Language</th>
-                                <th class="mdl-data-table__cell--non-numeric">Original Language</th>
-                                <th class="mdl-data-table__cell--non-numeric">Availability</th>
-                                <th class="mdl-data-table__cell--non-numeric"> </th>
+                                <th class="mdl-data-table__cell--non-numeric">#Id</th>
+                                <th class="mdl-data-table__cell--non-numeric">Nome</th>
+                                <th class="mdl-data-table__cell--non-numeric">Email</th>
+                                <th class="mdl-data-table__cell--non-numeric">Cor</th>
+                                <th class="mdl-data-table__cell--non-numeric">Setor</th>
                             </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="mdl-data-table__cell--non-numeric">5</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Life of Pi</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Yann Martel</td>
-                                    <td class="mdl-data-table__cell--non-numeric"><span class="label label--mini color--green">Fiction</span> </td>
-                                    <td class="mdl-data-table__cell--non-numeric">2016</td>
-                                    <td class="mdl-data-table__cell--non-numeric">2001</td>
-                                    <td class="mdl-data-table__cell--non-numeric">English</td>
-                                    <td class="mdl-data-table__cell--non-numeric">English</td>
-                                    <td class="mdl-data-table__cell--non-numeric">
-                                        <span class="label label--mini label__availability background-color--primary"></span>
-                                        <span class="label label--mini label__availability background-color--primary"></span>
-                                        <span class="label label--mini label__availability background-color--primary"></span>
-                                        <span class="label label--mini label__availability background-color--primary"></span>
-                                    </td>
-                                    <td class="mdl-data-table__cell--non-numeric"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button--colored-teal">Add to cart</button></td>
-                                </tr>
-                                <tr>
-                                    <td class="mdl-data-table__cell--non-numeric">6</td>
-                                    <td class="mdl-data-table__cell--non-numeric">The secret Garden</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Frances Hodgson Burnett</td>
-                                    <td class="mdl-data-table__cell--non-numeric"><span class="label label--mini color--orange">Childeren's literature</span> </td>
-                                    <td class="mdl-data-table__cell--non-numeric">2017</td>
-                                    <td class="mdl-data-table__cell--non-numeric">1911</td>
-                                    <td class="mdl-data-table__cell--non-numeric">English</td>
-                                    <td class="mdl-data-table__cell--non-numeric">English</td>
-                                    <td class="mdl-data-table__cell--non-numeric">
-                                        <span class="label label--mini label__availability background-color--secondary"></span>
-                                        <span class="label label--mini label__availability "></span>
-                                        <span class="label label--mini label__availability "></span>
-                                        <span class="label label--mini label__availability "></span>
-                                    </td>
-                                    <td class="mdl-data-table__cell--non-numeric"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button--colored-teal">Add to cart</button></td>
-                                </tr>
-                                <tr>
-                                    <td class="mdl-data-table__cell--non-numeric">7</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Rebecca</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Daphne du Maurier</td>
-                                    <td class="mdl-data-table__cell--non-numeric">
-                                        <span class="label label--mini color--purple">Gothic fiction</span>
-                                    </td>
-                                    <td class="mdl-data-table__cell--non-numeric">2016</td>
-                                    <td class="mdl-data-table__cell--non-numeric">1938</td>
-                                    <td class="mdl-data-table__cell--non-numeric">English</td>
-                                    <td class="mdl-data-table__cell--non-numeric">English</td>
-                                    <td class="mdl-data-table__cell--non-numeric">
-                                        <span class="label label--mini label__availability color--orange"></span>
-                                        <span class="label label--mini label__availability color--orange"></span>
-                                        <span class="label label--mini label__availability"></span>
-                                        <span class="label label--mini label__availability"></span>
-                                    </td>
-                                    <td class="mdl-data-table__cell--non-numeric"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button--colored-teal">Add to cart</button></td>
-                                </tr>
-                                <tr>
-                                    <td class="mdl-data-table__cell--non-numeric">8</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Dracula</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Bram Stoker</td>
-                                    <td class="mdl-data-table__cell--non-numeric">
-                                        <span class="label label--mini color--purple">Gothic fiction</span>
-                                        <span class="label label--mini color--dark-gray">Horror fiction</span>
-                                    </td>
-                                    <td class="mdl-data-table__cell--non-numeric">2015</td>
-                                    <td class="mdl-data-table__cell--non-numeric">1897</td>
-                                    <td class="mdl-data-table__cell--non-numeric">English</td>
-                                    <td class="mdl-data-table__cell--non-numeric">English</td>
-                                    <td class="mdl-data-table__cell--non-numeric">
-                                        <span class="label label--mini label__availability"></span>
-                                        <span class="label label--mini label__availability"></span>
-                                        <span class="label label--mini label__availability"></span>
-                                        <span class="label label--mini label__availability"></span>
-                                    </td>
-                                    <td class="mdl-data-table__cell--non-numeric"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button--colored-teal">Add to cart</button></td>
-                                </tr>
+                            <tbody id='janelaUsuarios'>
+                                
+
+                                
                             </tbody>
                         </table>
                     </div>
@@ -168,5 +95,20 @@
 <script src="../js/widgets/todo/todo.min.js"></script>
 <!-- endinject -->
 
+
+<tr id='dadosUsuarios'>
+    <td class="mdl-data-table__cell--non-numeric">121315</td>
+    <td class="mdl-data-table__cell--non-numeric">Adm</td>
+    <td class="mdl-data-table__cell--non-numeric">adm@obtersite.com.br</td>
+    <td class="mdl-data-table__cell--non-numeric"> <input type="color" id="head" name="head" value="#e66465" /></td>
+    <td class="mdl-data-table__cell--non-numeric"><span class="label label--mini color--green">CEO</span> </td>
+    <td class="mdl-data-table__cell--non-numeric"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button--colored-teal">Deletar</button></td>
+</tr>
+
 </body>
 </html>
+
+
+<script>
+
+</script>

@@ -1,8 +1,3 @@
-<?php
-include('php/autenticar.php');
-include("php/autenticar.php");
-?>
-
 <!doctype html>
 <!--
   Material Design Lite

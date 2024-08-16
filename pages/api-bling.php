@@ -1,5 +1,3 @@
-<?php include('../php/verificador.php'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
