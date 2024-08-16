@@ -72,7 +72,7 @@ if (isset($_SESSION['usuario'])) {
                                 echo "<p style='color:red;'>" . $_SESSION['erro'] . "</p>";
                                 unset($_SESSION['erro']); // Limpar a mensagem de erro da sessão
                             }?>
-                            <a href="forgot-password.html" class="login-link">Esqueceu a senha?</a>
+                            <a href="forgot-password.php" class="login-link">Esqueceu a senha?</a>
                         </div>
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone submit-cell">
                            
