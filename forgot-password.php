@@ -49,7 +49,7 @@
                 </div>
                 <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
                     <span class="login-name text-color--white">Esqueceu sua senha?</span>
-                    <span class="login-secondary-text text-color--smoke">Digite seu e-mail abaixo para receber sua senha</span>
+                    <span class="login-secondary-text text-color--smoke">Digite seu e-mail abaixo para receber link de recuperação</span>
                 </div>
                 <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-size">
