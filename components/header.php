@@ -2,7 +2,7 @@
 session_start();
 // Verificar se o usuário está logado
 if (!isset($_SESSION['usuario'])) {
-    header("Location: /../src/login.php");
+    header("Location: /../login.php");
     exit();
 }
 ?>
@@ -12,7 +12,7 @@ if (!isset($_SESSION['usuario'])) {
 
         <div class="avatar-dropdown" id="icon">
             <span><?php echo($_SESSION['nomeUsuario']); ?></span>
-            <img src="../src/images/Icon_header.png">
+            <img src="../images/Icon_header.png">
         </div>
         <!-- Account dropdawn-->
         <ul class="mdl-menu mdl-list mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect mdl-shadow--2dp account-dropdown"
@@ -25,7 +25,7 @@ if (!isset($_SESSION['usuario'])) {
                 </span>
             </li>
             <li class="list__item--border-top"></li>
-            <a href="/../src/minha-conta.php">
+            <a href="/../minha-conta.php">
                 <li class="mdl-menu__item mdl-list__item">
                     <span class="mdl-list__item-primary-content">
                         <i class="material-icons mdl-list__item-icon">account_circle</i>
@@ -34,7 +34,7 @@ if (!isset($_SESSION['usuario'])) {
                 </li>
             </a>
             <li class="list__item--border-top"></li>
-            <a href="/../src/php/logout.php">
+            <a href="/../php/logout.php">
                 <li class="mdl-menu__item mdl-list__item">
                     <span class="mdl-list__item-primary-content">
                         <i class="material-icons mdl-list__item-icon text-color--secondary">exit_to_app</i>
@@ -70,7 +70,7 @@ if (!isset($_SESSION['usuario'])) {
         <div class="scroller" id="scroller">
             <div class="scroll__container" id="scroll__container">
                 <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link mdl-navigation__link--current" href="/../src/index.php">
+                    <a class="mdl-navigation__link mdl-navigation__link--current" href="/../index.php">
                         <i class="material-icons" role="presentation">dashboard</i>
                         Dashboard
                     </a>
@@ -83,10 +83,10 @@ if (!isset($_SESSION['usuario'])) {
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href='/../src/pages/vendedores.php'>
+                            <a class="mdl-navigation__link" href='/../pages/vendedores.php'>
                                 Vendedores
                             </a>
-                            <a class="mdl-navigation__link" href='/../src/pages/historico-pedidos.php'>
+                            <a class="mdl-navigation__link" href='/../pages/historico-pedidos.php'>
                                 Histórico 
                             </a>
                         </div>
@@ -100,7 +100,7 @@ if (!isset($_SESSION['usuario'])) {
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="/../src/pages/editar-produtos.php">
+                            <a class="mdl-navigation__link" href="/../pages/editar-produtos.php">
                                 Editar produtos
                             </a>
                         </div>
@@ -113,12 +113,12 @@ if (!isset($_SESSION['usuario'])) {
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="/../src/pages/setores.php">
+                            <a class="mdl-navigation__link" href="/../pages/setores.php">
                                 Setores
                             </a>
                         </div>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="/../src/pages/esteira.php">
+                            <a class="mdl-navigation__link" href="/../pages/esteira.php">
                                 Esteira
                             </a>
                         </div>
@@ -132,10 +132,10 @@ if (!isset($_SESSION['usuario'])) {
                             <i class="material-icons">keyboard_arrow_down</i>
                         </a>
                         <div class="mdl-navigation">
-                            <a class="mdl-navigation__link" href="/../src/pages/api-bling.php">
+                            <a class="mdl-navigation__link" href="/../pages/api-bling.php">
                                 API Bling
                             </a>
-                            <a class="mdl-navigation__link" href="/../src/pages/variaveis.php">
+                            <a class="mdl-navigation__link" href="/../pages/variaveis.php">
                                 Variáveis
                             </a>
                         </div>
